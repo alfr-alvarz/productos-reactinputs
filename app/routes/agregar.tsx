@@ -1,13 +1,13 @@
-import ProductosLayout from "components/layouts/ProductosLayout";
 import type { Route } from "./+types/home";
+import AgregarLayout from "components/layouts/AgregarLayout";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
+    { title: "Experiencia" },
     { name: "description", content: "Welcome to React Router!" },
   ];
 }
 
 export default function Home() {
-  return <ProductosLayout />;
+  return <AgregarLayout />
 }
